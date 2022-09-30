@@ -1,0 +1,156 @@
+/* smart contract */
+.style-text-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 36px;
+    margin-bottom: 0px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+.style-text-h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.3rem;
+    line-height: 54px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.style-text-head{
+    display: none;
+}
+
+/* Partnerships */
+.style-text-bottom{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 54px;
+    text-align: right !important;
+    padding-right: 10px;
+    border-right: 4px solid #fff;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.style-text-h3-foot{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.style-text-p-foot{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.img-partner1{
+    height: 10rem;
+}
+.img-partner2{
+    height: 9rem;
+    margin-right: 10px;
+}
+.img-partner3{
+    height: 12rem;
+}
+.img-partner4{
+    height: 9.5rem;
+    margin-right: 10px;
+}
+.img-foot{
+    height: 18rem;
+}
+
+.partnerships-mobile{
+    display: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .style-text-p{
+        font-size: .9rem;
+    }
+    .style-text-h3{
+        font-size: 2rem;
+    }
+    .style-text-bottom{
+        display: none;
+    }
+    .style-text-head{
+        display: block;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 54px;
+        text-align: center !important;
+        margin-bottom: 0px;
+        /* identical to box height */
+
+        letter-spacing: 0.02em;
+
+        color: #FFFFFF;
+    }
+    .partnerships{
+        display: none !important;
+    }
+    .partnerships-mobile{
+        display: block;
+    }
+
+    .style-text-h3-foot{
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        /* identical to box height */
+    
+        letter-spacing: 0.02em;
+    
+        color: #FFFFFF;
+    }
+    
+    .style-text-p-foot{
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        /* identical to box height */
+    
+        letter-spacing: 0.02em;
+    
+        color: #FFFFFF;
+    }
+
+    .img-foot{
+        height: 9rem;
+    }
+
+}
